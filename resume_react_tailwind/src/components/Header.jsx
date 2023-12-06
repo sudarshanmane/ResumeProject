@@ -1,19 +1,22 @@
 import React from "react";
+import "./header.css";
 
 const Header = () => {
   return (
-    <div className="border-2 border-blue-700 flex justify-between items-center">
+    <div className="flex justify-between items-center header-font-style">
       <div className="leading-10 w-8/12 ">
         <div className="">
-          <h1 className="text-4xl font-bold">Sudarshan Mane</h1>
+          <h1 className="text-4xl font-extrabold header-name-font-style">
+            Sudarshan Mane
+          </h1>
           <h2 className="text-3xl font-bold italic mt-2">
             Full Stack Web Developer
           </h2>
         </div>
-        <div className="grid grid-cols-2 border-2 border-blue-800 mt-2">
+        <div className="grid grid-cols-2  mt-2 text-lg gap-x-64">
           <div className="flex items-center">
             <img
-              className="w-6  h-6 mr-3"
+              className="w-5  h-5 mr-3"
               src="https://cdn-icons-png.flaticon.com/128/542/542689.png"
               alt="mail_image"
             />
@@ -21,9 +24,9 @@ const Header = () => {
               <strong>sudarshanmane2110@gmail.com</strong>
             </a>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center ">
             <img
-              className="w-6  h-6 mr-3"
+              className="w-5  h-5 mr-3"
               src="https://cdn-icons-png.flaticon.com/128/447/447031.png"
               alt=""
             />
@@ -31,7 +34,7 @@ const Header = () => {
           </div>
           <div className="flex items-center">
             <img
-              className="w-6  h-6 mr-3"
+              className="w-5  h-5 mr-3"
               src="https://cdn-icons-png.flaticon.com/128/597/597177.png"
               alt=""
             />
@@ -43,7 +46,7 @@ const Header = () => {
               className="flex items-center"
             >
               <img
-                className="w-6  h-6 mr-3"
+                className="w-5  h-5 mr-3"
                 src="https://cdn-icons-png.flaticon.com/128/2111/2111432.png"
                 alt=""
               />
@@ -56,7 +59,7 @@ const Header = () => {
               className="flex items-center"
             >
               <img
-                className="w-6  h-6 mr-3"
+                className="w-5  h-5 mr-3"
                 src="https://cdn-icons-png.flaticon.com/128/3128/3128219.png"
                 alt=""
               />
@@ -69,7 +72,7 @@ const Header = () => {
               className="flex items-center"
             >
               <img
-                className="w-6  h-6 mr-3"
+                className="w-5  h-5 mr-3"
                 src="https://cdn-icons-png.flaticon.com/128/1536/1536550.png"
                 alt=""
               />
